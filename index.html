@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="J-wcHVGQpFS4bearjSTUR0OXeJBZ5PgzmB9jM5A6LLU" />
+    <title>Qazaq History — Подготовка к ЕНТ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Qazaq History</h1>
+        <p>Подготовка к ЕНТ по истории Казахстана</p>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Изучай историю Казахстана</h2>
+            <p>Учись, проходи тесты на реальных вопросах ЕНТ и проверяй свои знания.</p>
+            <button onclick="startTest()">Начать пробный тест (20 вопросов)</button>
+        </section>
+
+        <section class="topics">
+            <h2>Разделы обучения и инструменты</h2>
+            <div class="tools-grid">
+                <button onclick="openChronology()">📅 Хронология истории</button>
+                <button onclick="openFlashcards()">🃏 Флеш-карточки (Даты и личности)</button>
+            </div>
+
+            <div class="topic">
+                <h3>Движение Алаш</h3>
+                <p>Алаш партиясы, Алихан Букейханов и автономия Алаш.</p>
+                <button onclick="openTopic('alash')">Изучить тему</button>
+            </div>
+
+            <div class="topic">
+                <h3>Каменный век</h3>
+                <p>Палеолит, мезолит, неолит и энеолит.</p>
+                <button onclick="openTopic('stone')">Изучить тему</button>
+            </div>
+
+            <div class="topic">
+                <h3>Бронзовый век</h3>
+                <p>Андроновская и Бегазы-Дандыбаевская культуры.</p>
+                <button onclick="openTopic('bronze')">Изучить тему</button>
+            </div>
+
+            <div class="topic">
+                <h3>Сакский период</h3>
+                <p>Саки, их культура, государство и исторические события.</p>
+                <button onclick="openTopic('saka')">Изучить тему</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
