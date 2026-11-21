@@ -1,0 +1,19 @@
+/* Подключать ПОСЛЕ style.css */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin: 25px 0; text-align: left; }
+.stat { background: rgba(30, 51, 85, 0.8); border: 1px solid rgba(212, 168, 76, 0.3); border-radius: 12px; padding: 14px 16px; }
+.stat b { display: block; font-size: 26px; color: #e5b957; }
+.stat small { color: #94a3b8; }
+
+.search { width: 100%; margin: 10px 0 20px; padding: 14px 16px; border-radius: 10px; border: 1px solid #415779; background: #1e3355; color: #fff; font-size: 16px; }
+.search:focus, button:focus-visible { outline: 2px solid #e5b957; outline-offset: 2px; }
+#sr .topic { text-align: left; }
+
+.ghost { background: #1e3355; color: #fff; border: 1px solid #415779; }
+.good { background: #166534; color: #fff; }
+.bad { background: #7f1d1d; color: #fff; }
+.reset { margin-top: 10px; font-size: 13px; padding: 8px 14px; opacity: 0.7; }
+
+.timer { float: right; color: #e5b957; font-weight: bold; font-size: 20px; padding-top: 12px; }
+.timer.low { color: #f87171; }
+
+.review { text-align: left; border-left: 4px solid #f87171; padding: 4px 16px; margin: 14px 0; background: rgba(0, 0, 0, 0.2); border-radius: 8px; line-height: 1.5; }
